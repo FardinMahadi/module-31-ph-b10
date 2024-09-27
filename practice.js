@@ -76,3 +76,7 @@ let data2 = {
 };
 console.log(data2.data[0].bookDetails.name);
 console.log(data2.data[1].bookCategory);
+
+const numbers = [1, 3, 5, 7, 9];
+const even = numbers.map((n) => n + 1);
+console.log(even);
